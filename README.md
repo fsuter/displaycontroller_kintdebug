@@ -4,12 +4,16 @@ Display Controller - Debug with Kint
 This TYPO3 CMS extension provides an alternate formatting for the debug output
 of extension [displaycontroller](http://typo3.org/extensions/repository/view/displaycontroller)
 (from the [Tesseract package](http://www.typo3-tesseract.com/en/)) using
-the [Kint library](http://raveren.github.io/kint/) by Rokas Šleinius.
+the [Kint library](http://raveren.github.io/kint/) by [Rokas Šleinius](https://github.com/raveren).
 
 To use this output, open displaycontroller's extension configuration
 and set the **Debug output class** to `Tx_DisplaycontrollerKintdebug_Service_Debug`.
 
 ![Display Controller configuration screen](/Documentation/Images/DebugOutputSetup.png)
+
+This produces the following kind of output in the frontend:
+
+![Display Controller debug output](/Documentation/Images/DebugOutputSample.png)
 
 
 Installation
